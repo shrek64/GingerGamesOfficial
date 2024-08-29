@@ -21,3 +21,6 @@
 20240820	11:04:09	9aa1105e-9d9b-468c-be6b-033c2bde4cc6	Error: CORS BLOCKED NIGGA
 20240820	11:04:09	2aba9c5b-ccb4-43cc-87e6-0608798c6375	Error: CORS BLOCKED NIGGA
 20240820	11:09:06	6e51d7ed-a99f-42fd-a283-df1b83a2124d	ReferenceError: sendFile is not defined
+20240822	17:43:35	13300ec5-04ed-48d0-868a-7648e3194ca4	TypeError: Cannot read properties of undefined (reading 'id')
+20240822	17:44:14	3d572759-7511-4a6c-8d2a-52d80707f4bb	TypeError: Cannot read properties of undefined (reading 'id')
+20240822	17:44:14	a13e5ded-0156-41bc-9952-d7cc5124c59b	TypeError: Cannot read properties of undefined (reading 'id')

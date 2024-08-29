@@ -1,32 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
-body{
-    display: flex;
+body {
     margin: 0;
-    flex-direction: column;
-    align-items: center;
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
     background-image: url('../img/backgroundark.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
-    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
-.nav-links{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    margin: 0;
+.navbar {
     background-color: hsla(0, 0%, 100%, 0.15);
-    padding-top: 20px;
-    padding-bottom: 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 20px 0;
+    margin: 0;
 }
 
 .nav-links li {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0 25px;
 }
 
 a {
@@ -41,61 +40,42 @@ a {
 a:hover {
     color: black;
     background-color: white;
-    text-decoration: none;
 }
 
-footer{
+.plans-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+.plan {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 300px;
+    font-weight: bold;
+    margin: 20px;
+    flex: 1;
+    min-width: 280px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.plan img {
+    width: 50px;
+    height: 50px;
+}
+
+.plan ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
     background-color: hsla(0, 0%, 100%, 0.15);
     padding: 10px 20px;
     text-align: center;
     margin-top: 40px;
     width: 97%;
-}
-
-.basic-plan {
-    border: 2px solid white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 20px;
-    padding: 10px 20px;
-    max-width: 300px;
-    font-weight: bold;
-    position: absolute; /* Change from static to absolute */
-    left: 150px;
-    top: 250px;
-}
-
-.premium-plan{
-    border: 2px solid white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 20px;
-    padding: 10px 20px;
-    max-width: 300px;
-    font-weight: bold;
-    position: absolute; /* Change from static to absolute */
-    top: 250px;
-}
-
-.family-plan{
-    border: 2px solid white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 20px;
-    padding: 10px 20px;
-    max-width: 300px;
-    font-weight: bold;
-    position: absolute; /* Change from static to absolute */
-    right: 150px;
-    top: 250px;
-}
-
-#container{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin-top: 300px;
 }

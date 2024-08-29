@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "firstname": "joe",
+        "lastname": "mama",
+        "position": "mukbanger"
+    },
+    {
+        "id": 2,
+        "firstname": "Nikocado",
+        "lastname": "Avocado",
+        "position": "mukbanger"
+    },
+    {
+        "id": 3,
+        "firstname": "Keira",
+        "lastname": "Jiang",
+        "position": "CEO"
+    },
+    {
+        "id": 4,
+        "firstname": "Ben",
+        "lastname": "Dover",
+        "position": "Admin"
+    },
+    {
+        "id": 5,
+        "firstname": "boe",
+        "lastname": "jiden",
+        "position": "mukbanger"
+    }
+]
