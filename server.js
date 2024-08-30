@@ -7,7 +7,7 @@ const axios = require('axios');
 const {logger, logEvents} = require('./middleware/logEvents.js');
 const {errorHandler} = require('./middleware/errorHandler.js');
 
-const PORT = process.env.PORT || 3500;
+const PORT = process.env.PORT || 10000;
 
 app.use(logger);
 
